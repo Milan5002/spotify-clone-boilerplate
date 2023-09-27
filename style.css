@@ -1,0 +1,132 @@
+body{
+}
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+p{
+    color: white;
+    margin-left: 10px;
+    
+}
+h5,h2,h6,h3{
+    color: white;
+}
+.image-1{
+    height: 20px;
+    margin-top: 15px;
+}
+.image-2{
+    height: 40px;
+}
+.home{
+    display: flex;
+}
+.search{
+    display: flex;
+}
+.library{
+    display: flex;
+}
+ .second{ 
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 25px;
+    padding:0;
+    justify-content: space-between;
+    align-items: space-around;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+.playlist{
+    display: flex;
+}
+.liked{
+    display: flex;
+}
+.episodes{
+    display: flex;
+}
+.install{
+    display: flex;
+}
+
+.side{
+    height:691px;
+    width:210px;
+    background-color: black;
+}
+.fourth{
+    margin-left: 25px;
+}
+.install{
+    margin-left: 25px;
+}
+.spotify{
+    margin-left: 25px;
+}
+.image-3{
+    height: 25px;
+    width:70px
+}
+.image-4{
+    border-radius: 50px;
+    height:25px;
+    width:25px;
+}
+.image-5{
+    border-radius: 50px;
+    height:25px;
+    width:25px;
+}
+.main{
+    display: flex;
+}
+#nav{
+    display:flex;
+    justify-content:space-between;
+}
+.arrow-2{
+    display:flex;
+    border-radius: 15px;
+    background-color:rgb(48, 44, 44);
+    text-align: end;
+    height: 25px;
+}
+.beside{
+    background-color: grey;
+    width:850px ;
+    height:691px;
+}
+h2{
+    margin-left: 25px;
+}
+.song{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nine{
+    display: flex;
+    background-color:rgb(48, 44, 44);
+    width:210px;
+    justify-content: space-between;
+    margin-left: 25px;
+}
+.image{
+    height:75px;
+}
+.ten{
+    display: flex;
+    background-color:rgb(48, 44, 44);
+    width:210px;
+    justify-content: space-between;
+    margin-left: 25px;
+}
+.sky{
+    display: flex;
+    justify-content: space-evenly;
+}

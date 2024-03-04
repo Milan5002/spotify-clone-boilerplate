@@ -1,132 +1,289 @@
+/* importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Oswald:wght@300&family=Roboto&family=Work+Sans&display=swap');
+
 body{
-}
-/* *{
     margin: 0;
-    padding: 0;
-} */
-p{
+    background-color: #1d1d1d;
     color: white;
-    margin-left: 10px;
-    
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    overflow: hidden;
 }
-h5,h2,h6,h3{
-    color: white;
-}
-.image-1{
-    height: 20px;
-    margin-top: 15px;
-}
-.image-2{
-    height: 40px;
-}
-.home{
-    display: flex;
-}
-.search{
-    display: flex;
-}
-.library{
-    display: flex;
-}
- .second{ 
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin-left: 25px;
-    padding:0;
-    justify-content: space-between;
-    align-items: space-around;
-}
-.third{
-    display: flex;
-    flex-direction: column;
-    margin-left: 25px;
-}
-.playlist{
-    display: flex;
-}
-.liked{
-    display: flex;
-}
-.episodes{
-    display: flex;
-}
-.install{
-    display: flex;
+/* sidemenu */
+.sidemenu{
+    height: 100%;
+    width: 250px;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left: 0;
+    background-color: black;
+    overflow:hidden;
+    padding: 25px 10px;
 }
 
-.side{
-    height:691px;
-    width:210px;
-    background-color: black;
+.logo img{
+    width: 150px;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
-.fourth{
-    margin-left: 25px;
+#first{
+    background-color: #282828;
 }
-.install{
-    margin-left: 25px;
-}
-.spotify{
-    margin-left: 25px;
-}
-.image-3{
-    height: 25px;
-    width:70px
-}
-.image-4{
-    border-radius: 50px;
-    height:25px;
-    width:25px;
-}
-.image-5{
-    border-radius: 50px;
-    height:25px;
-    width:25px;
-}
-.main{
+.mitems{
+    padding-left: 20px;
     display: flex;
+    justify-content:baseline;
+    font-size: 14px;
+    font-weight: 600;
+    word-spacing:0%;
+    width: 230px;
+    height: 35px;
+    border-radius: 3px;
+    align-items: center;
 }
-#nav{
-    display:flex;
-    justify-content:space-between;
+.icon img{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
 }
-.arrow-2{
-    display:flex;
-    border-radius: 15px;
-    background-color:rgb(48, 44, 44);
-    text-align: end;
-    height: 25px;
-}
-.beside{
-    background-color: grey;
-    width:850px ;
-    height:691px;
-}
-h2{
-    margin-left: 25px;
-}
-.song{
+
+.plus{
+    height: 20px;
+    width: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    background-color: white;
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
 }
-.nine{
+
+#last1{
+    margin-bottom: 25px;
+}
+#last2 img{
+    border-radius: 3px;
+}
+
+/* Playlists */
+
+.playlists{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#install{
+    margin-top: 40px;
     display: flex;
-    background-color:rgb(48, 44, 44);
-    width:210px;
+    align-items: center;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+#install div img{
+    margin-right: 25px;
+}
+#Right{
+    position: relative;
+    margin-top: 2vh;
+    width: 78vw;
+    align-items: center;
+    left: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+    z-index: 0;
+}
+.section1{
+    display: flex;
     justify-content: space-between;
-    margin-left: 25px;
+    width: 78vw;
+    height: 6vh;
+    align-items: center;
 }
-.image{
-    height:75px;
+
+#arrows img{
+    width: 90px;
 }
-.ten{
+
+#profile{
     display: flex;
-    background-color:rgb(48, 44, 44);
-    width:210px;
+    align-items: center;
+    justify-content: space-around;
+    height: 35px;
+    width: 120px;
+    background-color: #0a0a0a;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+#photo{
+    width: 33px;
+    border-radius: 50%;
+}
+
+#arr{
+    width: 15px;
+}
+
+.section2{
+    display: flex;
+    justify-content: left;
+    width: 78vw;
+    margin-bottom: 20px;
+}
+
+#Right h1{
+    margin-top: 25px;
+}
+
+.card1{
+    height: 80px;
+    width: 280px;
+    background-color: #303030;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.card1 img{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: 20px;
+    width: 80px;
+}
+
+.section3{
+    display: flex;
+    justify-content: left;
+    width: 78vw;
+}
+
+.card2{
+    height: 185px;
+    width: 150px;
+    background-color: #181818;
+    padding: 20px;
+    margin-right: 25px;
+}
+
+.card2 img{
+    border-radius: 5px;
+    width: 130px;
+}
+#title{
+    font-size: 14px;
+    font-weight: 500;
+}
+#desc{
+    line-height: 75%;
+    font-size: 12px;
+    font-weight: 200;
+    color: #8d8d8d;
+}
+
+#show{
+    font-size: 25px;
+}
+#seeall{
+    line-height: 0%;
+    position: relative;
+    left: 70vw;
+}
+
+/* end */
+
+.end{
+    position: fixed;
+    z-index: 2;
+    display: flex;
     justify-content: space-between;
-    margin-left: 25px;
+    background-color: #181818;
+    height: 110px;
+    width: 100vw;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+    bottom: 4vh;
 }
-.sky{
+
+.play{
+    width: 175px;
+    height: 100px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between; 
+    align-items: center;
+}
+.play img{
+    width: 50px;
+}
+
+#love{
+    width: 15px;
+    height: 15px;
+}
+.songname h1{
+    font-size: 13px;
+    line-height: 0;
+    font-weight: 500;
+}
+.songname p{
+    font-size: 11px;
+    line-height: 50%;
+    font-weight: 400;
+}
+
+#music img{
+    width: 650px;
+}
+
+#Options img{
+    margin-right: 50px;
+    width: 225px;
+}
+
+#green{
+    background-color: #1ed760;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100vw;
+    height: 3vh;
+    position: fixed;
+    bottom: 1vh;
+    z-index: 2;
+}
+
+#green img{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+#green p{
+    font-size: small;
+    color: #0a0a0a;
+    margin-right: 100px;
+    font-weight: 600;
+}
+
+#square{
+    position: fixed;
+    bottom: 20px;
+    z-index: 2;
+    background-color: #1ed760;
+    transform:rotate(45deg);
+    width: 18px;
+    height: 18px;
+    right: 170px;
 }

@@ -3,166 +3,203 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>spotify</title>
+    <title>Spotify</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
-        <div class="side">
-            <div class="spotify">
-                <img class="image-2"src="./assets/Spotify logo.png" alt="">
+    <div class="sidemenu">
+        <!-- logo -->
+        <div class="logo">
+            <img src="assets\Spotify logo.png" alt="logo">
+        </div>
+
+        <!-- main items -->
+        <div class="mitems" id="first">
+            <div class="icon">
+                <img src="assets\Home.png" alt="Home">
             </div>
-            <div class="second">
-            <div class="home">
-                <img class="image-1" src="./assets/Home.png" alt="">
-                <p>Home</p>
+            <div class="name">
+                Home
             </div>
-            <div class="search">
-                <img class="image-1" src="./assets/Search.png" alt="">
-                <p>Search</p>
+        </div>
+
+        <div class="mitems">
+            <div class="icon">
+                <img src="assets\Search.png" alt="Search">
             </div>
-            <div class="library">
-                <img class="image-1"src="./assets/Your library.png" alt="">
-                <p>Your Library</p>
+            <div class="name">
+                Search
             </div>
+        </div>
+
+        <div class="mitems" id="last1">
+            <div class="icon">
+                <img src="assets\Your library.png" alt="Your library">
             </div>
-            <div class="third">
-                <div class="playlist">
-                    <img class="image-1" src="./assets/object3.png" alt="">
-                    <p> Create Playlist</p>
-                </div>
-                <div class="liked">
-                    <img  class="image-1" src="./assets/object1.png" alt="">
-                    <p>Liked songs</p>
-                </div>
-                <div class="episodes">
-                    <img class="image-1" src="./assets/object4.png" alt="">
-                    <p>Yours Episodes</p>
-                </div>
+            <div class="name">
+                Your Library
             </div>
-            <div class="fourth">
-                <div class="fav">
-                    <h3>FAV</h3>
-                </div>
-                <div class="items">
-                <h5>Daily Mix 1</h5>
-                <h5>Discover Weekly</h5>
-                <h5>Malayalam</h5>
-                <h5>Dance/ElectronixMix</h5>
-                <h5>EDM/Popular</h5>
+        </div>
+
+        <div class="mitems">
+            <div class="plus">
+                +
             </div>
+            <div class="name">
+                Create Playlist
             </div>
-            <div class="install">
-                <img class="image-1"  src="./assets/grommet-icons_install-option.png" alt="">
+        </div>
+
+        <div class="mitems">
+            <div class="icon">
+                <img src="assets\LikedSongs.png" alt="liked">
+            </div>
+            <div class="name">
+                Liked Songs
+            </div>
+        </div>
+
+        <div class="mitems">
+            <div class="icon" id="last2">
+                <img src="assets\podcasts.png" alt="podcasts">
+            </div>
+            <div class="name">
+                Your Episodes
+            </div>
+        </div>
+
+
+        <!-- playlists -->
+        <div class="playlists">
+            <p>FAV</p>
+            <p>Daily Mix 1</p>
+            <P>Discover Weekly</P>
+            <P>Malayalam</P>
+            <P>Dance / Electronic Mix</P>
+            <P>EDM/Popular</P>
+        </div>
+
+        <!-- install -->
+
+        <div id="install">
+            <div class="icon">
+                <img src="assets\grommet-icons_install-option.png" alt="install">
+            </div>
+            <div>
                 <p>Install App</p>
             </div>
         </div>
-        <div class="beside">
-            <nav id="nav">
-                <div class="arrow">
-                    <img class="image-3"src="./assets/top arrow navigation.png" alt="">
-                </div>
-                <div class="arrow-2">
-                    <img class="image-4" src="./assets/image1.png" alt="">
-                    <h6>Angel</h6>
-                    <img class="image-5" src="./assets/grommet-icons_install-option.png" alt="">
-                </div>
-            </nav>
-            <div class="morning">
-                <h2>Good Morning</h2>
-            </div>
-         <div class="song">
-            <div class="nine">
-                <div class="image-6">
-                    <img class="image" src="./assets/object1.png" alt="">
-                </div>
-                <div class="text">
-                    <p>liked songs</p>
-                </div>
-            </div>
-            <div class="nine">
-                <div class="image-6">
-                    <img class="image"src="./assets/image4.png" alt="">
-                </div>
-                <div class="text">
-                    <p>Netflex playlist</p>
-                </div>
-            </div>
-            <div class="nine">
-                <div class="image-6">
-                    <img class="image" src="./assets/image3.png" alt="">
-                </div>
-                <div class="text">
-                    <p>K/DA</p>
-                </div>
-            </div>
-            <div class="nine">
-                <div class="image-6">
-                    <img class="image"src="./assets/image1.png" alt="">
-                </div>
-                <div class="text">
-                    <p>Liked songs</p>
-                </div>
-            </div>
-            <div class="nine">
-                <div class="image-6">
-                    <img class="image"src="./assets/image2.png" alt="">
-                </div>
-                <div class="text">
-                    <p>Dance/ElectronicMix</p>
-                </div>
-            </div>
-         </div>
-         <div class="h2">
-            <h2>Shows you might like</h2>
-         </div>
-         <div class="sky">
-            <div class="ten">
-                <div class="image-7">
-                    <img class="image" src="./assets/image9.png"alt="">
-                </div>
-                <div class="text">
-                    <p>liked songs</p>
-                </div>
-            </div>
-            <div class="sky">
-                <div class="ten">
-                    <img class="image"src="./assets/image8.png" alt="">
-                </div>
-                <div class="text">
-                    <p>Netflex playlist</p>
-                </div>
-            </div>
-            <div class="sky">
-                <div class="image-7">
-                    <img class="image" src="./assets/image7.png"alt="">
-                </div>
-                <div class="text">
-                    <p>K/DA</p>
-                </div>
-            </div>
-            <div class="sky">
-                <div class="image-7">
-                    <img class="image"src="./assets/image-6.png" alt="">
-                </div>
-                <div class="text">
-                    <p>Liked songs</p>
-                </div>
-            </div>
-            <div class="sky">
-                <div class="image-7">
-                    <img class="image"src="" alt="">
-                </div>
-                <div class="text">
-                    <p>Dance/ElectronicMix</p>
-                </div>
-            </div>
-         
     </div>
-    <footer id="foot">
-        <div class="foot">
-            <img src="./assets/Music Player Options.png"  alt="">
+    
+<!-- right part -->
+    <div id="Right">
+        <!-- section1 -->
+        <div class="section1">
+            <div id="arrows">
+                <img src="assets\top arrow navigation.png" alt="top arrows">
+            </div>
+
+            <div id="profile">
+                <img id="photo" src="assets/image1.png" alt="profile pic">
+                <p>Milan </p>
+                <img id="arr" src="assets\fi-ss-caret-down.png" alt="arrow">
+            </div>
         </div>
-    </footer>
+
+        <!-- section2 -->
+        <h1>Good Morning</h1>
+        <div class="section2">
+
+            <div class="card1">
+                <img src="assets\liked.png" alt="Liked songs">
+                <p>Liked Songs</p>
+            </div>
+
+            <div class="card1">
+                <img src="assets\image4.png" alt="Liked songs">
+                <p>Neffex playlist</p>
+            </div>
+
+            <div class="card1">
+                <img src="assets\image3.png" alt="Liked songs">
+                <p>K/ DA</p>
+            </div>
+
+            <div class="card1">
+                <img src="assets\image1.png" alt="Liked songs">
+                <p>Liked Songs</p>
+            </div>
+
+        </div>
+
+        <div class="card1">
+            <img src="assets\image2.png" alt="Liked songs">
+            <p>Dance/ Electronic Mix</p>
+        </div>
+
+        <h1 id="show">Shows you might like</h1>
+        <p id="seeall">SEE ALL</p>
+        <div class="section3">
+
+            <div class="card2">
+                <img src="assets\image9.png" alt="image1">
+                <p id="title">Weekly Motivatio...</p>
+                <p id="desc">Ren Ina Scott</p>
+            </div>
+
+            <div class="card2">
+                <img src="assets\image8.png" alt="image2">
+                <p id="title">MEDITATION SELF</p>
+                <p id="desc">Ibn Hussain Aleen</p>
+            </div>
+
+            <div class="card2">
+                <img src="assets\image7.png" alt="image3">
+                <p id="title">Words beyond act..</p>
+                <p id="desc">Samuel Scoot</p>
+            </div>
+
+            <div class="card2">
+                <img src="assets\image6.png" alt="image4">
+                <p id="title">The Alexa show</p>
+                <p id="desc">Adriana Tom</p>
+            </div>
+
+            <div class="card2">
+                <img src="assets\image5.png" alt="image5">
+                <p id="title">The Stories of Ma...</p>
+                <p id="desc">Lexus</p>
+            </div>
+
+            <div class="card2">
+                <img src="assets\image10.png" alt="image6">
+                <p id="title">Motivation Daily b...</p>
+                <p id="desc">Georgina Martha</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="end">
+        <div class="play">
+            <img src="assets\image11.png" alt="image11">
+            <div class="songname">
+                <h1>Dreaming On</h1>
+                <p>NEFFEX</p>
+            </div>
+            <img id="love" src="assets\bx_bxs-heart.png" alt="liked">
+        </div>
+
+        <div id="music">
+            <img src="assets\Music Player Options.png" alt="music player">
+        </div>
+        <div id="Options">
+            <img src="assets\Right options.png" alt="options">
+        </div>
+    </div>
+    <div id="square"></div>
+    <div id="green">
+        <img src="assets\speaker.png" alt="speaker">
+        <p>Listening on ASUS-ROG-G531GT</p>
+    </div>
 </body>
 </html>
